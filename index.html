@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GoWriter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper slider-->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <!-- Modal Video-->
+    <link rel="stylesheet" href="vendor/modal-video/css/modal-video.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,800&amp;display=swap">
+    <!-- Device Mockup-->
+    <link rel="stylesheet" href="css/device-mockups.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!--botão whatsapp-->
+    <link rel="stylesheet" href="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-button.css">
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #00C4CC 0%, #7C2AE8 100%);
+      }
+    </style>
+  </head>
+  <body class="">
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="img/gowriter-logo.png" alt="" width="200"></a>
+          <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link link-scroll active" href="#hero">Home <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link link-scroll" href="#about">Funcionalidades</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll" href="#testimonials">Depoimentos</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll" href="#plans">Ver Planos</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll active" href="https://gowriter.app/Identity/Account/Login">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section-->
+    <section class="hero bg-top py-5" id="hero">
+      <div class="container py-5">
+        <div class="row justify-content-center py-5">
+
+
+          <!--<div class="col-lg-12 text-center">
+            <h1>
+              Reduza as chances de BLOQUEIO utilizando nossas ferramentas ANTI-BLOCK...
+            </h1>
+            <p class="mt-4">Não somos apenas uma ferramenta, mas sim uma comunidade com um conjunto de ferramentas e conteúdo técnico avançado para afiliados e produtores se protegerem de restrições e terríveis bloqueios.</p>
+          </div>-->
+          <div class="col-lg-12 text-center">
+            <h1>
+              Elimine ou reduza em 80% as chances de retrições em suas páginas no Facebook...
+            </h1>
+            <p class="mt-4">Nossa ferramenta utiliza IA de última geração para gerar conteúdo e obter engajamento a partir do conteúdo gerado, proporcionando um score mais alto para sua página.</p>
+          </div>
+
+          <div class="col-lg-8 mt-3 text-center">
+              <div style="position:relative;padding-top:56.25%;">
+                <div id="content-iframe-vls" style="display: none;">
+                </div>
+                <!--<iframe id="panda-9b1802cd-5787-4795-b975-19f5f2f5a8e3" src="https://player-vz-7dbce0f8-14c.tv.pandavideo.com.br/embed/?v=sdsdsdsd-5787-4795-sdsdsdss-sdsdsdsd" style="border:none;position:absolute;top:0;left:0" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="100%" height="100%"></iframe>-->
+                <iframe src="https://www.youtube.com/embed/3HXfMaHketM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:none;position:absolute;top:0;left:0" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="100%" height="100%"></iframe>
+              </div>
+              <div class="col-md-6 col-xs-12 offset-md-3">
+                <a href="#plans" class="btn btn-primary btn-lg mt-3 btn-block p-3 gradient" style="width: 100%;"><b>Ver Planos</b></a>
+              </div>
+          </div>
+
+          <!--<div class="col-lg-5 py-5 d-none">
+            <h1>Download your best app </h1>
+            <p class="my-4 text-muted">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod.</p>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mb-2 mb-lg-0"><a class="btn btn-primary btn-lg px-4" href="#!"> <i class="fab fa-google-play me-3"></i>Google Play</a></li>
+              <li class="list-inline-item"><a class="btn btn-primary btn-lg px-4" href="#!"> <i class="fab fa-app-store me-3"></i>App Store</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 ml-auto  d-none">
+            <div class="device-wrapper mx-auto">
+              <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                <div class="screen"><img class="img-fluid" src="img/mobile.png" alt=""></div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section>
+    <section class="bg-center py-0" id="about">
+      <!--<section class="about py-0 d-none">
+        <div class="container">
+          <p class="h6 text-uppercase text-primary">O que a GoWriter possui?</p>
+          <h2 class="mb-5">Tudo que você afiliado ou produtor precisa no dia a dia</h2>
+          <div class="row pb-5 gy-4">
+            <div class="col-lg-4 col-md-6">
+              Services Item
+              <div class="card border-0 shadow rounded-lg py-4 text-start" style="min-height: 400px;">
+                <div class="card-body p-5">
+                  <i class="fa-solid fa-file-code fa-4x"></i>
+                  <h3 class="h4 my-4">Camuflagem de Página Black</h3>
+                  <p class="text-sm text-muted mb-0">Este recurso permite que seja agressivo em suas ofertas, com a camuflagem os bots que analisam suas páginas irão ver apenas uma página white.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              Services Item
+              <div class="card border-0 shadow rounded-lg py-4 text-start" style="min-height: 400px;">
+                <div class="card-body p-5">
+                  <i class="fa-solid fa-bullseye fa-4x"></i>
+                  <h3 class="h4 my-4">Rastreio/Modelo de acompanhamento</h3>
+                  <p class="text-sm text-muted mb-0">Excelente opção para quem trabalha com Google Ads ou Bings Ads, com este recurso é possível trackear os acessos, identificar os termos pesquisados e etc.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              Services Item-
+              <div class="card border-0 shadow rounded-lg py-4 text-start" style="min-height: 400px;">
+                <div class="card-body p-5">
+                  <i class="fa-solid fa-photo-film fa-4x"></i>
+                  <h3 class="h4 my-4">Alteração de Metadados de Vídeo e Imagem</h3>
+                  <p class="text-sm text-muted mb-0">Este recurso é excelente para escalar ofertas, com esta funcionalidade você altera os metadados de imagens e vídeos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              Services Item
+              <div class="card border-0 shadow rounded-lg py-4 text-start" style="min-height: 400px;">
+                <div class="card-body p-5">
+                  <i class="fa-solid fa-file-lines fa-4x"></i>
+                  <h3 class="h4 my-4">Criptografia Russa</h3>
+                  <p class="text-sm text-muted mb-0">Já pensou em escrever frases agressivas e passar ileso? Esta funcionalidade criptografa os textos de forma que os algoritmos não consigam entender.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              Services Item
+              <div class="card border-0 shadow rounded-lg py-4 text-start" style="min-height: 400px;">
+                <div class="card-body p-5">
+                  <i class="fa-solid fa-window-restore fa-4x"></i>
+                  <h3 class="h4 my-4">Landing Pages</h3>
+                  <p class="text-sm text-muted mb-0">Disponibilizamos modelos de Landing Page prontas para uso.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+               Services Item
+              <div class="card border-0 shadow rounded-lg py-4 text-start" style="min-height: 400px;">
+                <div class="card-body p-5">
+                  <i class="fa-solid fa-bell fa-4x"></i>
+                  <h3 class="h4 my-4">Notificaçoes via Browser</h3>
+                  <p class="text-sm text-muted mb-0">A cada venda computada, uma notificação é exibida no browser.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              Services Item
+              <div class="card border-0 shadow rounded-lg py-4 text-start" style="min-height: 400px;">
+                <div class="card-body p-5">
+                  <i class="fa-solid fa-people-group fa-4x"></i>
+                  <h3 class="h4 my-4">Comunidade Secreta</h3>
+                  <p class="text-sm text-muted mb-0">Este pode ser uma das maiores vantagens em entrar para o GoWriter. Você ficará por dentro de tudo qeu é mais técnico como
+                    a utilização de scripts, landing pages e etc.</p>
+                </div>
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </section>
+      <section class="py-0" id="services">
+        <div class="container py-0 ">
+
+
+
+
+
+
+
+
+
+          <section class="pt-0 demonstration active" data-lazyload="">
+            <div class="container">
+              <h1>Quais benefícios do GoWriter</h1>
+              <!--<p>Ninguém vai te oferecer o que temos e pelo preço que praticamos. O GoWriter não é apenas um site ou ferramenta, mas sim um conjunto de ferramentas seletas para te proteger dos terríveis e desanimadores bloqueios. Você não imagina a quantidade de BOTS que acessam sua página diariamente, então é melhor se proteger com nossas incríveis ferramentas. Veja abaixo como ele pode
+                ajudar em sua operação.</p>-->
+                <p>Para que você tenha um bom desempenho no Facebook, é necessário cuidar dos seus ativos, e um dos seus ativos principais são as páginas que você utiliza para anunciar, veja os principais os benefícios do GoWriter para suas páginas.</p>
+          
+              <span>Deslize para ver mais&nbsp&nbsp <i class="fa-solid fa-arrow-right"></i></span>
+              <div class="demonstration-wrapper">
+                <nav class="controls" data-demonstration="controlsScroll">
+                  <ul data-demonstration="listWrapper">
+                    <li class="noselect active"><i class="fa-solid fa-file-code fa-1x"></i>&nbsp;Economia de Tempo e Energia</li>
+                    <li class="noselect"><i class="fa-brands fa-facebook fa-1x"></i>&nbsp;Economia Financeira</li>
+                    <li class="noselect"><i class="fa-solid fa-photo-film fa-1x"></i>&nbsp;Engajamento</li>
+                    <li class="noselect"><i class="fa-solid fa-photo-film fa-1x"></i>&nbsp;Personalização de Conteúdo</li>
+                  </ul>
+                </nav>
+          
+                <div class="demonstration-video-wrapper" data-demonstration="demonstrationWrapper">
+                  <div class="video-wrapper" data-demonstration="video">
+                    <!--<img alt="Camuflagem" src="./img/tools/camuflagem.jpg" style="width:100%">-->
+                    <iframe src="https://www.youtube.com/embed/o2RWwFQIhKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="100%" height="485"></iframe>
+                  </div>
+                  <p data-demonstration="descriptionWrapper">Se você tem muitas páginas e separadas em perfis sabe como é difícil e custoso ficar criando posts para manter sua fan-page saudável, com nossa ferramente você irá poupar muito tempo e energia.</p>
+                </div>
+          
+                <div class="demonstration-video-wrapper hide" data-demonstration="demonstrationWrapper">
+                  <div class="video-wrapper" data-demonstration="video">
+                    <!--<img alt="Rastreio" src="./img/tools/facebook-auto-post.jpg" style="width:100%">-->
+                    <iframe src="https://www.youtube.com/embed/tvKr6ROIZE4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="100%" height="485"></iframe>
+                  </div>
+                  <p data-demonstration="descriptionWrapper">Se você tem um funcionário para cuidar apenas das publicações de suas páginas, com certeza deve gastar muito mais do que gastaria com nossa ferramenta, provavelmente tenha uma economia na casa dos 90%.</p>
+                </div>
+          
+                <div class="demonstration-video-wrapper hide" data-demonstration="demonstrationWrapper">
+                  <div class="video-wrapper" data-demonstration="video">
+                    <!--<img alt="Metadados" src="./img/tools/metadados.jpg" style="width:100%">-->
+                    <iframe src="https://www.youtube.com/embed/SF9HAp3K9Lo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="100%" height="485"></iframe>
+                  </div>
+                  <p data-demonstration="descriptionWrapper">Os posts criados a partir de nossa ferramenta irá proporcionar curtidas e comentários orgânicos em suas páginas.</p>
+                </div>
+
+                <div class="demonstration-video-wrapper hide" data-demonstration="demonstrationWrapper">
+                  <div class="video-wrapper" data-demonstration="video">
+                    <!--<img alt="Análise de Criativo" src="./img/tools/analise-criativo.jpg" style="width:100%">-->
+                    <iframe src="https://www.youtube.com/embed/0zaC5RWipTw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="100%" height="485"></iframe>
+                  </div>
+                  <p data-demonstration="descriptionWrapper">Ao vincular suas páginas em nossa ferramenta, você terá a possibilidade de escolher um tema e também o idioma para que os posts sejam criados.</p>
+                </div>
+          
+                <!--<div class="demonstration-video-wrapper hide" data-demonstration="demonstrationWrapper">
+                  <div class="video-wrapper" data-demonstration="video">
+                    <img alt="Criptografia Russa" src="./img/tools/criptografia-russa.jpg" style="width:100%">
+                    <iframe src="https://www.youtube.com/embed/jg97t-y9puE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="100%" height="485"></iframe>
+                  </div>
+                  <p data-demonstration="descriptionWrapper">Já pensou em escrever frases agressivas e passar ileso? Esta funcionalidade criptografa os textos de forma que os algoritmos não consigam entender.</p>
+                </div>-->
+          
+                <!--<div class="demonstration-video-wrapper hide" data-demonstration="demonstrationWrapper">
+                  <div class="video-wrapper" data-demonstration="video">
+                    <iframe src="https://www.youtube.com/embed/JacSDxaybeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style="border:none;" allow="accelerometer;gyroscope;autoplay;encrypted-media;picture-in-picture" allowfullscreen="true" width="100%" height="485"></iframe>
+                  </div>
+                  <p data-demonstration="descriptionWrapper">Além da excelente ferramenta, nós construíremos uma comunidade exclusiva com conteúdo de alto nível.</p>
+                </div>-->
+          
+              </div>
+            </div>
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!--<div class="row align-items-center mb-5 gy-5">
+            <div class="col-lg-6"><img class="img-fluid w-100 px-lg-5" src="img/objects.svg" alt=""></div>
+            <div class="col-lg-6">
+              <h2>The Best Business Solutions Guide for You</h2>
+              <p class="text-muted">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation.</p>
+              <button class="btn btn-primary js-modal-btn" data-video-id="B6uuIHpFkuo"><i class="fas fa-play-circle me-2"></i>Play video</button>
+            </div>
+          </div>
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-6">
+              <h2>Make your own success as simple you clap</h2>
+              <p class="text-muted">Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation.</p>
+              <ul class="list-check">
+                <li class="text-muted mb-2">Various Analysis Options</li>
+                <li class="text-muted mb-2">Page Load Details (time, size, number of requests)</li>
+                <li class="text-muted mb-2">Waterfall, Video and Report History</li>
+              </ul>
+              <button class="btn btn-primary js-modal-btn" data-video-id="B6uuIHpFkuo"><i class="fas fa-play-circle me-2"></i>Play video</button>
+            </div>
+            <div class="col-lg-6">
+              <div class="row gy-4">
+                <div class="col-lg-6 col-sm-6">
+                  Services Item
+                  <div class="card border-0 shadow rounded-lg text-start px-2">
+                    <div class="card-body px py-5">
+                      <svg class="svg-icon" style="width:40px;height:40px;color:#ff904e">
+                        <use xlink:href="#document-saved-1"> </use>
+                      </svg>
+                      <h3 class="h5 my-3">Online Marketing</h3>
+                      <p class="text-sm mb-0 text-muted">Lorem ipsum dolor amet consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  Services Item
+                  <div class="card border-0 shadow rounded-lg text-start px-2">
+                    <div class="card-body px py-5">
+                      <svg class="svg-icon" style="width:40px;height:40px;color:#39f8d2">
+                        <use xlink:href="#map-marker-1"> </use>
+                      </svg>
+                      <h3 class="h5 my-3">Track your move </h3>
+                      <p class="text-sm mb-0 text-muted">Lorem ipsum dolor amet consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                  Services Item
+                  <div class="card border-0 shadow rounded-lg text-start px-2">
+                    <div class="card-body px py-5">
+                      <svg class="svg-icon" style="width:40px;height:40px;color:#8190ff">
+                        <use xlink:href="#arrow-target-1"> </use>
+                      </svg>
+                      <h3 class="h5 my-3">Market analysis</h3>
+                      <p class="text-sm mb-0 text-muted">Lorem ipsum dolor amet consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                   Services Item
+                  <div class="card border-0 shadow rounded-lg text-start px-2">
+                    <div class="card-body px py-5">
+                      <svg class="svg-icon" style="width:40px;height:40px;color:#ff634b">
+                        <use xlink:href="#sorting-1"> </use>
+                      </svg>
+                      <h3 class="h5 my-3">Full Settings</h3>
+                      <p class="text-sm mb-0 text-muted">Lorem ipsum dolor amet consectetur adipisicing.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </section>
+    </section>
+    <section class="p-0 mt-5" id="testimonials">
+      <div class="container text-center">
+        <p class="h6 text-uppercase text-primary">Depoimentos</p>
+        <h2 class="mb-5">O que nossos clientes dizem?</h2>
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <div class="swiper testimonials-slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide h-auto">
+                  <div class="mx-3 mx-lg-5 my-5 pt-3">
+                    <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                      <div class="card-body index-forward pt-5 rounded-lg">
+                        <div class="testimonial-img"><img class="rounded-circle" src="img/avatar-1.jpg" alt="" width="100"/></div>
+                        <p class="lead text-muted mb-5">Ferramenta espetacular! Falicitou demais meu trabalho, utilizo para automatizar a criação de posts das minhas fan-pages, antes eu pagava o salário de uma pessoa, hoje pago apenas a ferramenta e tenho uma economia de 90%.</p>
+                        <h5 class="mb-0">Jonathan Guilherme</h5>
+                        <p class="text-primary mb-0 text-sm">Afiliado e Produtor</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                  <div class="mx-3 mx-lg-5 my-5 pt-3">
+                    <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                      <div class="card-body index-forward pt-5 rounded-lg">
+                        <div class="testimonial-img"><img class="rounded-circle" src="img/avatar-2.jpg" alt="" width="100"/></div>
+                        <p class="lead text-muted mb-5">Excelente! Antes eu precisava ficar acessando perfil por perfil, página por página, isso me tomava muito tempo, hoje a ferramenta faz tudo automático para mim</p>
+                        <h5 class="mb-0">José Marcos</h5>
+                        <p class="text-primary mb-0 text-sm">Afiliado</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                  <div class="mx-3 mx-lg-5 my-5 pt-3">
+                    <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                      <div class="card-body index-forward pt-5 rounded-lg">
+                        <div class="testimonial-img"><img class="rounded-circle" src="img/avatar-3.jpg" alt="" width="100"/></div>
+                        <p class="lead text-muted mb-5">Adoro a GoWriter, o preço é irisório perto do que oferece.</p>
+                        <h5 class="mb-0">Daniel Santos</h5>
+                        <p class="text-primary mb-0 text-sm">Produtor</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide h-auto">
+                  <div class="mx-3 mx-lg-5 my-5 pt-3">
+                    <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                      <div class="card-body index-forward pt-5 rounded-lg">
+                        <div class="testimonial-img"><img class="rounded-circle" src="img/avatar-4.jpg" alt="" width="100"/></div>
+                        <p class="lead text-muted mb-5">Melhor ferramenta não existe, fora a comunidade que é sensacional!!!</p>
+                        <h5 class="mb-0">Jonas da Silva</h5>
+                        <p class="text-primary mb-0 text-sm">Afiliado</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <section class="p-0" id="plans">
+      <div class="container text-center">
+        <section class="plans" id="plans">
+          <div class="container">
+            <h1>Escolha o seu plano abaixo</h1>
+        
+            <ul class="plan-container">
+              <li class="plan" data-price="9700">
+                <h2>Basic</h2>
+        
+                <strong class="plan-price"> R$ 57,00 <span>/ mês</span></strong>
+        
+                <div class="plan-discount">
+                  <strong class="plan-price"></strong>
+                  <div class="plan-discount-info"></div>
+                </div>
+        
+                <ul>
+                  <li class="plays"><div>
+                      <div class="info">
+                        <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp 5 páginas 
+                        <span data-tooltip="Você pode conectar até 5 páginas neste plano">
+                          &nbsp<i class="fa-regular fa-circle-question"></i>
+                        </span>
+                      </div>          
+                    </div>
+                  </li>
+                  <li class="plays"><div>
+                      <div class="info">
+                        <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Múltiplos Perfis
+                        <span data-tooltip="Você pode conectar páginas de diversos perfis">
+                          &nbsp<i class="fa-regular fa-circle-question"></i>
+                        </span>
+                      </div>          
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp 1 Post Automático por dia
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post com Texto e Imagem
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post Automático
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post Manual
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Área de Membros
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Comunidade
+                  </li>
+                </ul>
+        
+                <a href="https://pay.hotmart.com/O83020790G?off=rc81z3y9" class="gradient mt-5 btn btn-primary" target="_blank">
+                  Selecionar
+                </a>
+              </li>
+        
+              <li class="plan most-popular" data-price="24700">
+                <h2>Standart</h2>
+        
+                <strong class="plan-price">R$ 87,00 <span>/ mês</span></strong>
+        
+                <div class="plan-discount">
+                  <strong class="plan-price"></strong>
+                  <div class="plan-discount-info"></div>
+                </div>
+        
+                <ul>
+                  <li class="plays"><div>
+                      <div class="info">
+                        <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp 10 páginas 
+                        <span data-tooltip="Você pode conectar até 10 páginas neste plano">
+                          &nbsp<i class="fa-regular fa-circle-question"></i>
+                        </span>
+                      </div>          
+                    </div>
+                  </li>
+                  <li class="plays"><div>
+                      <div class="info">
+                        <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Múltiplos Perfis
+                        <span data-tooltip="Você pode conectar páginas de diversos perfis">
+                          &nbsp<i class="fa-regular fa-circle-question"></i>
+                        </span>
+                      </div>          
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp 1 Post Automático por dia
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post com Texto e Imagem
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post Automático
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post Manual
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Área de Membros
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Comunidade
+                  </li>
+                </ul>
+        
+                <a href="https://pay.hotmart.com/O83020790G?off=yeoghln8" class="gradient mt-5 btn btn-primary" target="_blank">
+                  Selecionar
+                </a>
+              </li>
+        
+              <li class="plan" data-price="44700">
+                <h2>Premium</h2>
+        
+                <strong class="plan-price">R$ 147,00 <span>/ mês</span></strong>
+        
+                <div class="plan-discount">
+                  <strong class="plan-price"></strong>
+                  <div class="plan-discount-info"></div>
+                </div>
+        
+                <ul>
+                  <li class="plays"><div>
+                      <div class="info">
+                        <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp 20 páginas 
+                        <span data-tooltip="Você pode conectar até 20 páginas neste plano">
+                          &nbsp<i class="fa-regular fa-circle-question"></i>
+                        </span>
+                      </div>          
+                    </div>
+                  </li>
+                  <li class="plays"><div>
+                      <div class="info">
+                        <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Múltiplos Perfis
+                        <span data-tooltip="Você pode conectar páginas de diversos perfis">
+                          &nbsp<i class="fa-regular fa-circle-question"></i>
+                        </span>
+                      </div>          
+                    </div>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp 1 Post Automático por dia
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post com Texto e Imagem
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post Automático
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Post Manual
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Área de Membros
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-circle-check fa-1x"></i>&nbsp Comunidade
+                  </li>
+                </ul>
+        
+                <a href="https://pay.hotmart.com/O83020790G?off=jgd0kyol" class="gradient mt-5 btn btn-primary" target="_blank">
+                  Selecionar
+                </a>
+              </li>
+        
+              <li class="plans-enterprise">
+                <h2>Precisa de mais?</h2>
+        
+                <p>Precisa de muitos acessos? Entre em contato para um plano Enterprise e economize!</p>
+        
+                <a href="https://api.whatsapp.com/send?phone=5512981559842&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20plataforma%20GoWriter." class="gradient btn btn-primary btn-lg js-modal-btn">Entre em Contato</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <a class="scroll-top-btn" id="scrollTop" href="#!"><i class="fas fa-long-arrow-alt-up"></i></a>
+    <footer class="position-relative pt-5">
+      <div class="container py-5">
+        <div class="row gy-4">
+          <div class="col-lg-3"><img class="mb-4" src="img/gowriter-logo.png" alt="" width="200">
+            <p class="text-muted">O GoWriter é a melhor ferramenta hoje para quem deseja automatizar a geração de conteúdo nas páginas do Facebook.</p>
+          </div>
+          <!--<div class="col-lg-2">
+            <h2 class="h5 mb-4">Quick Links</h2>
+            <div class="d-flex">
+              <ul class="list-unstyled d-inline-block me-4 mb-0">
+                <li class="mb-2"><a class="footer-link" href="#!">History</a></li>
+                <li class="mb-2"><a class="footer-link" href="#!">About us</a></li>
+                <li class="mb-2"><a class="footer-link" href="#!">Contact us</a></li>
+                <li class="mb-2"><a class="footer-link" href="#!">Services</a></li>
+              </ul>
+            </div>
+          </div>-->
+          <!--<div class="col-lg-2">
+            <h2 class="h5 mb-4">Services</h2>
+            <div class="d-flex">
+              <ul class="list-unstyled me-4 mb-0">
+                <li class="mb-2"><a class="footer-link" href="#!">History</a></li>
+                <li class="mb-2"><a class="footer-link" href="#!">About us</a></li>
+                <li class="mb-2"><a class="footer-link" href="#!">Contact us</a></li>
+                <li class="mb-2"><a class="footer-link" href="#!">Services</a></li>
+              </ul>
+            </div>
+          </div>-->
+          <div class="col-lg-5">
+            <h2 class="h5 mb-4">Informações de Contato</h2>
+            <ul class="list-unstyled me-4 mb-3">
+              <li class="mb-2 text-muted">São José dos Campos - São Paulo </li>
+              <li class="mb-2"><a class="footer-link" href="tel:12981559842">(12)98155-9842</a></li>
+              <li class="mb-2"><a class="footer-link" href="mailto:support@gowriter.app">support@gowriter.app</a></li>
+              <li class="mb-2">Bpj Negocios Digitais - CNPJ: 46.939.326/0001-80 </li>
+            </ul>
+            <ul class="list-inline mb-0">
+              <!--<li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-linkedin-in"></i></a></li>-->
+              <li class="list-inline-item"><a class="social-link" href="https://instagram.app/gowriter.app"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-4">
+            <ul class="list-unstyled me-4 mb-3">
+              <li class="mb-2"><a class="footer-link" href="/termos">Termos de Uso</a></li>
+              <li class="mb-2"><a class="footer-link" href="/privacidade">Política de Privacidade</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">       
+        <div class="container text-center py-4">
+          <p class="mb-0 text-muted text-sm">&copy; 2023, GoWriter.</p>
+          <!-- If you want to remove the backlink, please purchase the Attribution-Free License. See details in readme.txt or license.txt. Thanks!-->
+        </div>
+      </div>
+      <a id="robbu-whatsapp-button" target="_blank" href="https://api.whatsapp.com/send?phone=5512981559842&amp;text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20a%20plataforma%20GoWriter.">
+        <div class="rwb-tooltip">Enviar Mensagem</div>
+        <img src="https://cdn.positus.global/production/resources/robbu/whatsapp-button/whatsapp-icon.svg">
+        </a>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/modal-video/js/modal-video.js"></script>
+    <script src="js/demonstration-wrapper.js"></script>
+    <script src="js/front.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite - 
+      //   see more here 
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+      
+          var ajax = new XMLHttpRequest();
+          ajax.open("GET", path, true);
+          ajax.send();
+          ajax.onload = function(e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+          }
+      }
+      // this is set to BootstrapTemple website as you cannot 
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
+      
+    </script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
