@@ -522,7 +522,7 @@
   /*# sourceMappingURL=styles.css.map */
 
   .swiper-pagination-bullet {
-    background-color: #fff;
+    background-color: #000932 !important;
   }
   
   .navbar.active {
@@ -535,4 +535,19 @@
 
   .navbar-light .navbar-nav .nav-link  {
     color: #5954cb;
+  }
+
+  @media (max-width: 767.98px) {
+    .navbar {
+      background-color: #000932 !important;
+      color: #fff
+    }
+  }
+
+  .navbar-collapse {
+    background-color: #000932 !important;
+  }
+
+  .navbar-light .navbar-toggler {
+    color: #fff
   }
